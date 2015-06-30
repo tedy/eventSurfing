@@ -1,0 +1,65 @@
+{"name":"Buenos Aires Invasion",
+"items":
+[{
+  "id":0,
+  "title":"Hamburgueseada",
+  "desc":"Recibimos a las primeras avanzadas, comienzan los abrazos y los brindis que serán muchos. Pueden traer: hamburguesas de carne, soja, pan, lechuga, aderezos, fiambre, bebidas. Nosotros nos encargamos de la compra del carbón, hielo, servilletas y demás.",
+  "date":"2015-08-14T20:00:00Z",
+  "place":"Some Place",
+  "contact":{"name":"Tadeo","cell":"+5493412167899"}
+}, {
+  "id":1,
+  "title":"Picnic de Bienvenida Oficial",
+  "desc":"Almuerzo a la canasta.",
+  "date":"2015-08-15T12:00:00Z",
+  "place":"Puerto Madero",
+  "point":[-34.617933,-58.356577],
+  "contact":{"name":"Tadeo","cell":"+5493412167899"}
+},{
+  "id":2,
+  "title":"City Tour",
+  "desc":"Foto grupal. Opción A. Visita al interior de la Casa Rosada. Opción B. Recorrido fundacional: Cabildo, Catedral, Calle Defensa. Luego, bar para merendar o tomar la primera cervecita de la tarde.",
+  "date":"2015-08-15T15:30:00Z",
+  "place":"Pirámide de Mayo (Plaza de Mayo)",
+  "point":[-34.608353,-58.372085]
+}, {
+  "id":3,
+  "title":"Cena y Boliche",
+  "desc":"Comemos juntos y danzamos ól di náit.",
+  "date":"2015-08-15T23:00:00Z",
+  "place":"Some Place"
+}, {
+  "id":4,
+  "title":"La Boca y Caminito",
+  "desc":"Recorreremos uno de los barrios más emblemáticos del mundo. Casitas de colores, carritos que venden bondiola, conventillos. Muy pintoresco.",
+  "date":"2015-08-16T13:00:00Z",
+  "place":"Punto de encuentro a confirmar"
+}, {
+  "id":5,
+  "title":"San Telmo: Paseo de la Historieta",
+  "desc":"Se trata de un circuito callejero que homenajea a los personajes de célebres historietas. Caminando por las calles de este antiguo barrio de Buenos Aires, nos encontraremos con Patoruzú, Mafalda y sus amigos, Clemente, Largirucho, Isidoro y más.",
+  "date":"2015-08-16T16:30:00Z",
+  "place":"Plaza Dorrego (Humberto I y Defensa)",
+  "point":[-34.620549,-58.371552]
+}, {
+  "id":6,
+  "title":"Pizza y Bailongo",
+  "desc":" En nuestra gran fiesta de cierre gran, los convocamos a festejar lo que sea que quieran festejar, empezando por los cumpleaños, futuros casorios, amoríos furtivos, etc, y para eso les pedimos a los interesados que avisen así los sumamos y son co-responsables del gran lío gran que pensamos armar.",
+  "date":"2015-08-16T21:00:00Z",
+  "place":"Some Place"
+}, {
+  "id":7,
+  "title":"Cementerio de la Recoleta",
+  "desc":"Visita guiada en la que nos enteraremos de los mitos y leyendas que circundan al Cementerio.",
+  "date":"2015-08-17T12:00:00Z",
+  "place":"Plaza Dorrego (Humberto I y Defensa)",
+  "point":[-34.586711,-58.391683]
+}, {
+  "id":8,
+  "title":"Mateada de Despedida",
+  "desc":"Mates, masitas y abrazos por doquier.",
+  "date":"2015-08-17T15:00:00Z",
+  "place":"Plaza Francia",
+  "point":[-34.585348,-58.391529]
+}
+]}

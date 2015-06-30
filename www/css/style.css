@@ -1,0 +1,57 @@
+.scroll-content{
+/*  background-image: url('/img/background.jpg');*/
+}
+.body, .ionic-body, .nav-bar-title, .item, .item h2, .item h3, .item p, .item label {
+  font-family: 'Indie Flower', cursive;
+  font-style: italic;
+  overflow: visible;
+  font-size: 19px;
+}
+
+.bar.bar-positive, .bar.bar-stable {
+  border-color: #d4490b;
+  background-color: #d4490b;
+}
+
+.tabs-striped.tabs-color-positive .tab-item.tab-item-active, 
+.tabs-striped.tabs-color-positive .tab-item.active, .tabs-striped.tabs-color-positive .tab-item.activated {
+  margin-top: -2px;
+  color: #d4490b;
+  border: 0 solid #d4490b;
+  border-top-width: 2px;
+}
+
+
+.nav-bar-title {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.item {
+  color: #666;
+  border-style: none;
+}
+
+.item label {
+	line-height: 1px;
+  color: #d4490b;
+}
+
+.item h2 {
+  color: #666;
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 0px;
+}
+
+.item h3 {
+  color: #666;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.card .item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.angular-google-map-container { height: 400px; }

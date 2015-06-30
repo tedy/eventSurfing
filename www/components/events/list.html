@@ -1,0 +1,13 @@
+<ion-view hide-back-button="true">
+  <ion-nav-title>{{name}}</ion-nav-title>
+  <ion-content>
+    <ion-list ng-if="items.length">
+      <ion-item ng-repeat="item in items" class="card" ng-click="openEvent(item)">
+        <p><h3>{{item.title}}</h3></p>
+        <p><label>Date:</label> {{item.date | amDateFormat:'MMMM Do YYYY, h:mm a'}}</p>
+        <p><label>Place:</label> {{item.place}}</p>
+      </ion-item>
+    </ion-list>
+    <tnf-dbl-press-exit></tnf-dbl-press-exit>
+  </ion-content>
+</ion-view>

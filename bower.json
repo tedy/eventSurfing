@@ -1,0 +1,14 @@
+{
+  "name": "eventSurfing",
+  "private": "true",
+  "devDependencies": {
+    "angular-moment": "0.8.2",
+    "ionic": "driftyco/ionic-bower#1.0.0",
+    "ionicons": "~2.0.1",
+    "ngstorage": "~0.3.0",
+    "angular-google-maps": "2.1.X"
+  },
+  "resolutions": {
+    "ionicons": "~2.0.1"
+  }
+}

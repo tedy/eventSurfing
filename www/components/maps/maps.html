@@ -1,0 +1,20 @@
+<ion-view>
+  <ion-nav-title>Map</ion-nav-title>
+  <ion-content>
+    <div class="card">
+      <div  ng-if="item" class="item">
+        <h2>{{item.title}}</h2>
+      </div>
+      <div ng-if="item" class="item item-text-wrap">
+        <p><label>Date:</label> {{item.date | amDateFormat:'MMMM Do YYYY, h:mm a'}}</p>
+        <p><label>Place:</label> {{item.place}}</p>
+      </div>
+      <div class="item">
+        <ui-gmap-google-map center='map.center' zoom='map.zoom'>
+          <ui-gmap-marker idKey='item.id' coords='mark'></ui-gmap-marke>
+          <!--ui-gmap-markers models='map.mark' coords='self'></ui-gmap-markers-->
+        </ui-gmap-google-map>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
