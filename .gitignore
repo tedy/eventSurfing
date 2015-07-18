@@ -3,6 +3,7 @@
 
 .cordova/
 .settings/
+.externalToolBuilders/
 .project
 node_modules/
 platforms/
@@ -10,3 +11,4 @@ plugins/
 resources/android/
 resources/*icon.*
 www/lib/
+
