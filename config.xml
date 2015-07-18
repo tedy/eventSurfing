@@ -1,33 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.eventsurfing889781" version="0.0.1"
-  xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>eventSurfing</name>
-  <description>
-    Follow Events un Couchsurfing
-  </description>
-  <author email="info@theninjafactory.com" href="http://theninjafactory.com/">
-    The Ninja Factory
-  </author>
-  <content src="index.html"/>
-  <access origin="*"/>
-  <access origin="tel:*" launch-external="yes" />
-  <preference name="Fullscreen" value="true" />
-  <preference name="Orientation" value="portrait" />
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="android-minSdkVersion" value="16"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
-  <platform name="android">
-    <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
-    <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
-    <icon src="resources/android/icon/drawable-hdpi-icon.png" density="hdpi"/>
-    <icon src="resources/android/icon/drawable-xhdpi-icon.png" density="xhdpi"/>
-    <icon src="resources/android/icon/drawable-xxhdpi-icon.png" density="xxhdpi"/>
-    <icon src="resources/android/icon/drawable-xxxhdpi-icon.png" density="xxxhdpi"/>
-  </platform>
-  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0"
+	id="com.ionicframework.eventsurfing889781" version="0.0.2">
+	<name>eventSurfing</name>
+	<description>
+		Follow Events un Couchsurfing
+	</description>
+	<author email="info@theninjafactory.com" href="http://theninjafactory.com/">
+		The Ninja Factory
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<access launch-external="yes" origin="tel:*" />
+	<preference name="Fullscreen" value="true" />
+	<preference name="Orientation" value="portrait" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="android-minSdkVersion" value="16" />
+	<preference name="BackupWebStorage" value="none" />
+	<feature name="StatusBar">
+		<param name="ios-package" onload="true" value="CDVStatusBar" />
+	</feature>
+	<feature name="HttpRequest">
+		<param name="android-package" value="plugin.http.request.HttpRequest" />
+		<param name="ios-package" value="HttpRequest" />
+	</feature>
+	<platform name="android">
+		<icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
+		<icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
+		<icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
+		<icon density="xhdpi" src="resources/android/icon/drawable-xhdpi-icon.png" />
+		<icon density="xxhdpi" src="resources/android/icon/drawable-xxhdpi-icon.png" />
+		<icon density="xxxhdpi" src="resources/android/icon/drawable-xxxhdpi-icon.png" />
+	</platform>
+	<icon src="resources/android/icon/drawable-xhdpi-icon.png" />
+
+	<feature name="GoogleMaps">
+		<param name="android-package" value="plugin.google.maps2.GoogleMaps" />
+	</feature>
+	<feature name="External">
+		<param name="android-package" value="plugin.google.maps2.External" />
+	</feature>
+	<feature name="Geocoder">
+		<param name="android-package" value="plugin.google.maps2.MyGeocoder" />
+	</feature>
+
+	<feature name="GoogleMaps">
+		<param name="ios-package" value="GoogleMaps" />
+	</feature>
+	<feature name="External">
+		<param name="ios-package" value="External" />
+	</feature>
+	<feature name="Geocoder">
+		<param name="ios-package" value="Geocoder" />
+	</feature>
 </widget>
