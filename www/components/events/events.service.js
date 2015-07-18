@@ -4,7 +4,8 @@ angular.module('eventSurfing')
 
     function loadData() {
         var defer = $q.defer();
-        $http.get('app/data/event.json').success(function (data) {
+        //$http.get('app/data/event.json').success(function (data) {
+        $http.get('https://docs.google.com/document/export?format=txt&id=1g6tDYjDi3z0O1QwiRD7WTyegqHDhy934jNevC7EwwEs').success(function (data) {
             event = data;
             defer.resolve();
         });
