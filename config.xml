@@ -22,6 +22,10 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <feature name="HttpRequest">
+    <param name="android-package" value="plugin.http.request.HttpRequest" />
+    <param name="ios-package" value="HttpRequest" />
+  </feature>
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
     <icon src="resources/android/icon/drawable-mdpi-icon.png" density="mdpi"/>
@@ -59,4 +63,24 @@
     <splash src="resources/ios/splash/Default~iphone.png" height="480" width="320"/>
   </platform>
   <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+
+  <feature name="GoogleMaps">
+    <param name="android-package" value="plugin.google.maps2.GoogleMaps" />
+  </feature>
+  <feature name="External">
+    <param name="android-package" value="plugin.google.maps2.External" />
+  </feature>
+  <feature name="Geocoder">
+    <param name="android-package" value="plugin.google.maps2.MyGeocoder" />
+  </feature>
+
+  <feature name="GoogleMaps">
+    <param name="ios-package" value="GoogleMaps" />
+  </feature>
+  <feature name="External">
+    <param name="ios-package" value="External" />
+  </feature>
+  <feature name="Geocoder">
+    <param name="ios-package" value="Geocoder" />
+  </feature>
 </widget>
