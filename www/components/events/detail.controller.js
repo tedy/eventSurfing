@@ -3,7 +3,9 @@ angular.module('eventSurfing')
     $scope.item = null;
 
     $scope.openMap = function () {
-      $state.go('tab.events.map', { id: $scope.item.id }, { inherit: false });
+      var ref = window.open('maps://?q=-34.617933,-58.356577', '_system');
+      //var ref = window.location.href('maps://?q=-34.617933,-58.356577', '_system');
+      //$state.go('tab.events.map', { id: $scope.item.id }, { inherit: false });
     };
 
     $scope.get = function () {

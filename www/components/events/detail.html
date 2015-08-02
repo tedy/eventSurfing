@@ -15,7 +15,8 @@
         <p><label>Date:</label> {{item.date | amDateFormat:'MMMM Do YYYY, h:mm a'}}</p>
         <p><label>Place:</label> 
         {{item.place}}
-        <a ng-if="item.point" ng-class="item-balanced" ng-href="#" ng-click="openMap()" >
+        <!--a ng-if="item.point" ng-class="item-balanced" ng-href="#" ng-click="openMap()" -->
+        <a ng-if="item.point" ng-class="item-balanced" ng-href="maps://?q=-34.617933,-58.356577" >
           <i class="icon ion-location"></i>
         </a>
         </p>
