@@ -2,5 +2,6 @@ angular.module('eventSurfing', [
   'ionic',
   'ngStorage',
   'angularMoment',
-  'uiGmapgoogle-maps'
+  'uiGmapgoogle-maps',
+  'ngCordova'
 ]);

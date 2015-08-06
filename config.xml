@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.eventsurfing889781" version="0.0.1"
+<widget id="com.tnf.eventsurfing" version="0.0.1"
   xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>eventSurfing</name>
-  <description>
-    Follow Events un Couchsurfing
-  </description>
-  <author email="info@theninjafactory.com" href="http://theninjafactory.com/">
-    The Ninja Factory
-  </author>
+  <description>Follow Events un Couchsurfing</description>
+  <author email="info@theninjafactory.com" href="http://theninjafactory.com/">The Ninja Factory</author>
   <content src="index.html"/>
   <access origin="*"/>
   <access origin="tel:*" launch-external="yes" />
+  <access origin="maps:*" launch-external="yes" />
   <preference name="Fullscreen" value="true" />
   <preference name="Orientation" value="portrait" />
   <preference name="DisallowOverscroll" value="true"/>
@@ -19,7 +16,19 @@
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
   <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+    <param name="ios-package" value="CDVStatusBar" onload="true" />
+  </feature>
+  <feature name="File">
+    <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    <param name="onload" value="true" />
+    <param name="ios-package" value="CDVFile" />
+  </feature>
+  <feature name="FileTransfer">
+    <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    <param name="ios-package" value="CDVFileTransfer" />
+  </feature>
+  <feature name="File Transfer">
+    <param name="id" value="org.apache.cordova.file-transfer" />
   </feature>
   <platform name="android">
     <icon src="resources/android/icon/drawable-ldpi-icon.png" density="ldpi"/>
