@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.eventsurfing889781" version="0.0.1"
+<widget id="com.ionicframework.eventsurfing" version="0.0.1"
   xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>eventSurfing</name>
-  <description>
-    Follow Events un Couchsurfing
-  </description>
-  <author email="info@theninjafactory.com" href="http://theninjafactory.com/">
-    The Ninja Factory
-  </author>
+  <description>Follow Events in Couchsurfing</description>
+  <author email="info@theninjafactory.com" href="http://theninjafactory.com/">The Ninja Factory</author>
   <content src="index.html"/>
   <access origin="*"/>
   <access origin="tel:*" launch-external="yes" />
