@@ -3,6 +3,8 @@
 
 .cordova/
 .settings/
+.idea/
+*.iml
 .project
 node_modules/
 platforms/
